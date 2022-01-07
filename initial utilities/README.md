@@ -1,3 +1,22 @@
+wcat
+It’s program which open a required file and show it’s content
+To use it first create binary wcat using:
+prompt> gcc -o wcat wcat.c -Wall -Werror
+
+then you can type:
+prompt> ./wcat filename
+
+for example:
+prompt> ./wcat main.c
+
+
+if more one file it will print each file in turn
+in all error it will return zero and when no file specified too
+if fopen() fails print the exact message "wcat: cannot open file" and exit with status code 1
+
+
+
+
 wgrep:
 this is the second function a variant of the UNIX tool it looks inside a file line by line to find  search term in the line defined by the user
 if the line has the word specified by the user within it the line is printed if it doesnt have that word it won't be printed out. for example looking for a term foo
