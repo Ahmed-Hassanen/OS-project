@@ -1,7 +1,7 @@
 wcat
 _____
 It’s program which open a required file and show it’s content.
-_____
+
 To use it first create binary wcat using:
 _____
 prompt> gcc -o wcat wcat.c -Wall -Werror
