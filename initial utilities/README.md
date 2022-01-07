@@ -25,7 +25,7 @@ _____
 
 
 
-wgrep:
+# wgrep:
 this is the second function a variant of the UNIX tool it looks inside a file line by line to find  search term in the line defined by the user
 
 if the line has the word specified by the user within it the line is printed if it doesnt have that word it won't be printed out. for example looking for a term foo
@@ -59,7 +59,7 @@ the line should be printed otherwise skip that line
 
 
 
--Wzip
+# Wzip
 _____
 
 wZIP is a compression and file packaging utility for Unix. Each file is stored in single .zip {.zip-filename} file with the extension .zip.
@@ -78,7 +78,7 @@ The useing of shell redirection in order to write the compressed output to a fil
 prompt> ./wzip file.txt > file.z
 
 
--Wunzip
+# Wunzip
 _______
 
 You can use the unzip command to extract (unzip) the file on Linux or Unix-like operating system. 
