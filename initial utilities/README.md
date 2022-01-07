@@ -1,4 +1,4 @@
-wcat
+##wcat
 _____
 It’s program which open a required file and show it’s content.
 
