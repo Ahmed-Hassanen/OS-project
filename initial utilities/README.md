@@ -1,20 +1,27 @@
 wcat
 _____
-It’s program which open a required file and show it’s content
+It’s program which open a required file and show it’s content.
+_____
 To use it first create binary wcat using:
+_____
 prompt> gcc -o wcat wcat.c -Wall -Werror
-
+_____
 then you can type:
+_____
 prompt> ./wcat filename
-
+_____
 for example:
+_____
 prompt> ./wcat main.c
 
+_____
 
 if more one file it will print each file in turn
+_____
 in all error it will return zero and when no file specified too
+_____
 if fopen() fails print the exact message "wcat: cannot open file" and exit with status code 1
-
+_____
 
 
 
