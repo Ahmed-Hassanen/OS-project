@@ -1,4 +1,4 @@
-// OS Assignment-1 Copyright@Amit_Kumar Singh Yadav - 16110011 
+
 // Question-1 Replicating cat function of UNIX Shell
  
 #include <stdio.h> // for standard input and output- fgets, fclose, fopen
